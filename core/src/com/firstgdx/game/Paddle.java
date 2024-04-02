@@ -18,6 +18,18 @@ public class Paddle {
         this.screenHeight = screenHeight;
     }
 
+    public int getX() {
+        return x;
+    }
+    public int getY() {
+        return y;
+    }
+    public int getWidth() {
+        return width;
+    }
+    public int getHeight() {
+        return height;
+    }
     public void updatePosition(int mouseX) {
         //update horizontal position
         x = mouseX - width /2;
